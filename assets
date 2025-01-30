@@ -1,22 +1,25 @@
 This folder is intended to store the chess piece images used by the Chess project. Since GitHub supports PNG files in repositories, the images should be included here to ensure the project functions correctly.
 
-Image Information
+Image Information:
 The chess piece images must be in PNG format.
 The naming convention for the files is as follows:
 Black pieces: bP.png, bR.png, bN.png, bB.png, bQ.png, bK.png
 White pieces: wP.png, wR.png, wN.png, wB.png, wQ.png, wK.png
 Each file represents a specific chess piece (e.g., bP.png is a black pawn, wK.png is a white king).
-Why Images Are Missing
+
+Why Images Are Missing?
 If you don’t see the PNG files in this folder:
 
 GitHub does not support "attachments" like issues or pull requests.
 The files are not included in this repository to reduce repository size.
-How to Add the Images
+
+How to Add the Images?
 To run this project, you need to provide the required PNG images. You can:
 
 Download Free Images: Use freely available chess piece PNGs, such as from Lichess pieces repository.
 Convert Your Own: If you have SVG files, you can convert them to PNG using tools like:
 CairoSVG (Python library)
 Online converters (e.g., https://www.online-convert.com/)
+
 Placement of Images
 Place the images in this assets/ directory, ensuring the filenames match the required naming convention.
